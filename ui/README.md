@@ -20,3 +20,6 @@ This part of application is apart from the play application and benefits of all 
 ## Package for Production
 * Run `grunt package` to package your static assets for production (not working yet...)
 * Your package will be generated in a play folder and your javascripts and stylesheets will be concatenated, minified and versionned.
+
+## Cleaning
+* Run `grunt clean` to remove all generated files.

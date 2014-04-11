@@ -7,13 +7,13 @@
     .constant("apiUrl", "http://localhost:9000/api") // to tell AngularJS that 9001 is not a dynamic parameter
     .config(["$routeProvider", function($routeProvider) {
         return $routeProvider.when("/", {
-            templateUrl: "/views/main",
+            templateUrl: "/assets/views/main.html",
             controller: "ListCtrl"
         }).when("/create", {
-            templateUrl: "/views/detail",
+            templateUrl: "/assets/views/detail.html",
             controller: "CreateCtrl"
         }).when("/edit/:id", {
-            templateUrl: "/views/detail",
+            templateUrl: "/assets/views/detail.html",
             controller: "EditCtrl"
         }).otherwise({
             redirectTo: "/"

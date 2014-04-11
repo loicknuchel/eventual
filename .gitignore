@@ -16,3 +16,6 @@ dist
 /RUNNING_PID
 /.settings
 *.class
+
+# generated from ui/app/index.html by grunt
+app/views/index.scala.html
